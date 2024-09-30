@@ -71,5 +71,5 @@ router.post('/menu', async (req, res) => {
         res.status(500).json({ message: "Internal Server Error" });
     }
 })
-module.exports = routes;
+module.exports = router;
 //comments added  for testing purpose
