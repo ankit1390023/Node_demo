@@ -32,11 +32,6 @@ router.get('/', async (req, res) => {
     }
 })
 
-
-
-
-
-
 //post API
 router.post('/', async (req, res) => {
     try {
@@ -50,3 +45,4 @@ router.post('/', async (req, res) => {
     }
 })
 module.exports = router;
+
